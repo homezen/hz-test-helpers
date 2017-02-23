@@ -1,0 +1,12 @@
+{
+    "plugins": [],
+    "presets": [
+        "es2015",
+        "stage-3"
+    ],
+    "env": {
+        "development": {"plugins": [ "lodash" ]},
+        "production": {"plugins": [ "lodash" ]},
+        "test": {"plugins": [ "istanbul" ]}
+    }
+}

@@ -1,0 +1,10 @@
+---
+    root: true
+    extends:
+        - homezen
+        - homezen/es-next
+        - homezen/es-modules
+        - homezen/lodash
+        - homezen/node
+    parser: babel-eslint
+...
