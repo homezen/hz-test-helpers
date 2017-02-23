@@ -70,8 +70,7 @@
     "remark-cli": "~3.0.0",
     "remark-lint": "~6.0.0",
     "source-map-support": "~0.4.11",
-    "watch": "~1.0.0",
-    "webpack": "~1.14"
+    "watch": "~1.0.0"
   },
   "dependencies": {
     "chai": "~3.5.0",
