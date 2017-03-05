@@ -16,7 +16,7 @@
     "lint-yaml": "bundle exec yaml-lint *.yml *.yaml",
     "lint-remark": "remark -f src/**/*.md *.md",
     "lint-watch": "watch 'eslint --ignore-path .gitignore .' src",
-    "release": "NODE_ENV=production BLUEBIRD_DEBUG=1 hz-release-private-module",
+    "release": "NODE_ENV=production BLUEBIRD_DEBUG=1 hz-release-public-module",
     "start": "npm run dev",
     "tdd": "npm run watch",
     "test": "npm run test-mocha && npm run test-karma",
@@ -28,11 +28,8 @@
     "watch-js": "npm run clean && babel src -w -s -d lib",
     "postpublish": "greenkeeper-postpublish"
   },
-  "publishConfig": {
-    "access": "restricted"
-  },
   "author": "homezen",
-  "license": "UNLICENSED",
+  "license": "BSD-3-Clause",
   "engines": {
     "node": "^6 || ^7",
     "npm": "^3.10 || ^4"
