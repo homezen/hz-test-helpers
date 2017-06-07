@@ -39,21 +39,19 @@ module.exports = function(config) {
                 new webpack.IgnorePlugin(/source-map-support/),
             ],
             module: {
-                preLoaders: [
-                    {
-                        test: /\.js$/,
-                        include: [
-                            /src/,
-                        ],
-                        // :-/ Only non-http tests becase https://github.com/pgte/nock/issues/409
-                        exclude: [
-                            /server-test\.js$/,
-                        ],
-                        loader: 'babel',
-                    },
-                ],
+                rules: [{
+                    test: /\.js$/,
+                    use: [{
+                        loader: 'babel-loader',
+                    }],
+                    include: [
+                        /src/,
+                    ],
+                    exclude: [
+                        /server-test\.js$/,
+                    ],
+                }],
             },
-            browser: {fs: false},
         },
         webpackMiddleware: {
             noInfo: true,

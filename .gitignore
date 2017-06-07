@@ -8,3 +8,4 @@ coverage.lcov
 *.log
 npm-debug.log*
 Gemfile.lock
+package-lock.json
