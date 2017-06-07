@@ -13,7 +13,6 @@ machine:
 dependencies:
     pre:
         - uname -a && . /etc/lsb-release && echo $DISTRIB_DESCRIPTION
-        - cp .npmrc.ci .npmrc
         - npm i -g npm@^5
         - npm -v
     post:
@@ -34,6 +33,7 @@ deployment:
     master:
         branch: master
         commands:
+            - cp .npmrc.ci .npmrc # this is a public repo
             - npm info || echo "no info yet"
             - npm run deploy
             - npm info
