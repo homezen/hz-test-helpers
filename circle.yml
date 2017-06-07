@@ -9,6 +9,7 @@ machine:
         version: '6.11'
     environment:
         MOCHA_REPORTER: spec
+        npm_config_package_lock: false
 
 dependencies:
     pre:
