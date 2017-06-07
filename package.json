@@ -71,12 +71,12 @@
     "webpack": "~2.6.1"
   },
   "dependencies": {
-    "chai": "~4.0.2",
+    "chai": "4.0.2",
     "chai-as-promised": "6.0.0",
     "debug": "^2.6.0",
-    "jsverify": "~0.8.2",
-    "sinon": "~2.3.2",
-    "sinon-chai": "~2.10.0"
+    "jsverify": "0.8.2",
+    "sinon": "2.3.2",
+    "sinon-chai": "2.10.0"
   },
   "repository": {
     "type": "git",
