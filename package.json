@@ -25,8 +25,7 @@
     "test-mocha-junit": "mocha --compilers js:babel-core/register -R mocha-junit-reporter --reporter-options mochaFile=$CIRCLE_TEST_REPORTS/mocha/docs-api.xml  ./src/**/*.js",
     "test-watch": "mocha -w --compilers js:babel-core/register -R dot ./src/**/*.js ./src/*.js",
     "watch": "npm run watch-js & NODE_ENV=production npm run test-watch & npm run lint-watch",
-    "watch-js": "npm run clean && babel src -w -s -d lib",
-    "postpublish": "greenkeeper-postpublish"
+    "watch-js": "npm run clean && babel src -w -s -d lib"
   },
   "author": "homezen",
   "license": "BSD-3-Clause",
@@ -51,7 +50,6 @@
     "cross-env": "~5.0.0",
     "eslint": "^3.15",
     "eslint-config-homezen": "~2.1.0",
-    "greenkeeper-postpublish": "~1.0.0",
     "karma": "~1.7.0",
     "karma-chai": "~0.1.0",
     "karma-chrome-launcher": "~2.1.1",
