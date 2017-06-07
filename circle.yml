@@ -6,7 +6,7 @@ machine:
     ruby:
         version: '2.2'
     node:
-        version: '6.10'
+        version: '6.11'
     environment:
         MOCHA_REPORTER: spec
 
@@ -14,7 +14,7 @@ dependencies:
     pre:
         - uname -a && . /etc/lsb-release && echo $DISTRIB_DESCRIPTION
         - cp .npmrc.ci .npmrc
-        - npm i -g npm@latest
+        - npm i -g npm@^5
         - npm -v
     post:
         # Chrome 53 / Karma issue
