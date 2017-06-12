@@ -36,7 +36,7 @@
   "devDependencies": {
     "@homezen/hz-npm-scripts": "~1.2.0",
     "babel-cli": "~6.24.1",
-    "babel-core": "~6.24.1",
+    "babel-core": "~6.25.0",
     "babel-eslint": "~7.2.3",
     "babel-loader": "~7.0.0",
     "babel-plugin-istanbul": "~4.1.4",
@@ -47,9 +47,9 @@
     "babel-preset-stage-3": "~6.24.1",
     "babel-register": "~6.24.1",
     "codecov": "~2.2.0",
-    "cross-env": "~5.0.0",
+    "cross-env": "~5.0.1",
     "eslint": "^3.15",
-    "eslint-config-homezen": "~2.1.0",
+    "eslint-config-homezen": "~2.1.1",
     "karma": "~1.7.0",
     "karma-chai": "~0.1.0",
     "karma-chrome-launcher": "~2.1.1",
@@ -70,11 +70,10 @@
   },
   "dependencies": {
     "chai": "4.0.2",
-    "chai-as-promised": "6.0.0",
     "debug": "^2.6.0",
     "jsverify": "0.8.2",
-    "sinon": "2.3.2",
-    "sinon-chai": "2.10.0"
+    "sinon": "~2.3.4",
+    "sinon-chai": "~2.11.0"
   },
   "repository": {
     "type": "git",
