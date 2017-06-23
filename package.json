@@ -34,7 +34,7 @@
     "npm": "^3.10 || ^4 || ^5"
   },
   "devDependencies": {
-    "@homezen/hz-npm-scripts": "~1.2.0",
+    "@homezen/hz-npm-scripts": "1.2.1",
     "babel-cli": "~6.24.1",
     "babel-core": "~6.25.0",
     "babel-eslint": "~7.2.3",
