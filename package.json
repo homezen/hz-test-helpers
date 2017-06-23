@@ -70,7 +70,7 @@
   },
   "dependencies": {
     "chai": "4.0.2",
-    "debug": "^2.6.0",
+    "debug": "2.6.8",
     "jsverify": "0.8.2",
     "sinon": "~2.3.4",
     "sinon-chai": "~2.11.0"
