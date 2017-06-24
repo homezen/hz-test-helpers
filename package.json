@@ -1,6 +1,6 @@
 {
   "name": "@homezen/hz-test-helpers",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Universal JavaScript Redux utilities for hz-webapp and beyond",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
