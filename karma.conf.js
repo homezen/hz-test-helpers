@@ -4,7 +4,7 @@ const webpack = require('webpack')
 
 module.exports = function(config) {
     config.set({
-        browsers: ['Chrome', 'Firefox'],
+        browsers: ['ChromeHeadless', 'ChromeCanaryHeadless', 'Firefox'],
 
         files: [
             './src/*.test.js',
