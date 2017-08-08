@@ -1,6 +1,6 @@
 {
   "name": "@homezen/hz-test-helpers",
-  "version": "3.1.17",
+  "version": "3.1.19",
   "description": "Universal JavaScript Redux utilities for hz-webapp and beyond",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
@@ -67,13 +67,13 @@
     "remark-lint": "~6.0.0",
     "source-map-support": "~0.4.11",
     "watch": "~1.0.0",
-    "webpack": "~3.4.0"
+    "webpack": "~3.5.0"
   },
   "dependencies": {
     "chai": "4.1.1",
     "debug": "^2.6.0",
     "jsverify": "0.8.2",
-    "sinon": "~3.0.0",
+    "sinon": "~3.1.0",
     "sinon-chai": "~2.12.0"
   },
   "repository": {
