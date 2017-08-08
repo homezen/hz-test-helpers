@@ -67,7 +67,7 @@
     "remark-lint": "~6.0.0",
     "source-map-support": "~0.4.11",
     "watch": "~1.0.0",
-    "webpack": "~3.4.0"
+    "webpack": "~3.5.0"
   },
   "dependencies": {
     "chai": "4.1.1",
