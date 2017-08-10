@@ -1814,9 +1814,9 @@ eslint-ast-utils@^1.0.0:
   dependencies:
     lodash.get "^4.4.2"
 
-eslint-config-homezen@~3.4.0:
-  version "3.4.4"
-  resolved "https://registry.yarnpkg.com/eslint-config-homezen/-/eslint-config-homezen-3.4.4.tgz#79afd87f0628a62408c72861d68cc8d41c4e497d"
+eslint-config-homezen@~3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-homezen/-/eslint-config-homezen-3.5.0.tgz#3b9beb8ad2f882df105c69fcc7badf8b611a9c4b"
   dependencies:
     eslint "4.4.1"
     eslint-import-resolver-webpack "0.8.3"
