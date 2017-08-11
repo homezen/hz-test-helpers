@@ -4499,9 +4499,9 @@ sinon-chai@~2.12.0:
   version "2.12.0"
   resolved "https://registry.yarnpkg.com/sinon-chai/-/sinon-chai-2.12.0.tgz#da71e9642ef7b893ba3cf2af806396a00aa45927"
 
-sinon@~3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/sinon/-/sinon-3.1.0.tgz#c2b6e58e178fe85afe24f0182828a0060e0df383"
+sinon@~3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/sinon/-/sinon-3.2.0.tgz#8848a66ab6e8b80b5532e3824f59f83ea2628c77"
   dependencies:
     diff "^3.1.0"
     formatio "1.2.0"
@@ -5235,8 +5235,8 @@ webpack-sources@^1.0.1:
     source-map "~0.5.3"
 
 webpack@^3.1.0, webpack@~3.5.0:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.5.1.tgz#b749ee3d2b5a118dad53e8e41585b3f71e75499a"
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.5.3.tgz#e68653963bda146e212832c04a4d8041d2b4b8c8"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^2.0.0"
