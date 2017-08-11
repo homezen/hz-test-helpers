@@ -10,7 +10,7 @@
         "^nyc.*",
         "^webpack.*"
       ],
-      "autoMerge": "minor"
+      "automerge": "minor"
     }
   ]
 }
