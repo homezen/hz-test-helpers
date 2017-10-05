@@ -64,7 +64,7 @@
     "nyc": "~11.2.0",
     "remark-cli": "~4.0.0",
     "remark-lint": "~6.0.0",
-    "source-map-support": "~0.4.11",
+    "source-map-support": "~0.5.0",
     "watch": "~1.0.0",
     "webpack": "~3.6.0"
   },
