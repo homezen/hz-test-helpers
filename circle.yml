@@ -6,7 +6,7 @@ machine:
     ruby:
         version: '2.2'
     node:
-        version: '6.11'
+        version: '8.11'
     environment:
         MOCHA_REPORTER: spec
         npm_config_package_lock: false
@@ -16,7 +16,7 @@ dependencies:
         - uname -a && . /etc/lsb-release && echo $DISTRIB_DESCRIPTION
         - npm i -g npm@^5
         - npm -v
-        - npm i -g yarn
+        - npm i -g yarn@^1.7
         - rm -rf ~/.yarn
     override:
         - bundle install
